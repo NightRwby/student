@@ -1,0 +1,1 @@
+SELECT * FROM opendatadb.tbl_a;tbl_a
