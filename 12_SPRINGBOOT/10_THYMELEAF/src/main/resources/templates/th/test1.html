@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!--  헤더영역 가져오기  -->
+    <th:block th:insert="~{th/fragments/header::headerFragment}"></th:block>
+    <main>
+        <h1>TEST1 /th/test1 Page</h1>
+        <h2>TH : 속성값 가져오기</h2>
+        NAME : <span th:text="${name}"></span><br/>
+        DTO : <span th:text="${dto}"></span><br/>
+        DTO : <span th:text="${dto.id}"></span><br/>
+        DTO : <span th:text="${dto.text}"></span><br/>
+        DTO : <span th:text="${dto.writer}"></span><br/>
+        <hr/>
+        <h2>TH : 분기문</h2>
+        <th:block th:if="${isAuth}">
+            <div>로그인 상태입니다</div>
+        </th:block>
+        <th:block th:unless="${isAuth}">
+            <div>로그아웃 상태입니다</div>
+        </th:block>
+        <hr/>
+        <h2>TH : 반복문</h2>
+        <!-- 백엔드 코드 입력하려면 적어야할 태그 -->
+        <th:block th:each="dto:${list}">
+            <div th:text="${dto}"></div>
+        </th:block>
+        <hr/>
+        <h2>TH : A TAG</h2>
+        <!-- 백엔드 코드 입력하려면 적어야할 태그 -->
+        <a th:href="@{/memo/param1(id=${dto.id},text=${dto.text},writer=${dto.writer})}">/memo/param1</a><br/>
+        <a th:href="@{/memo/param2/{id}/{text}/{writer} (id=${dto.id},text=${dto.text},writer=${dto.writer}) }">/memo/param2</a><br/>
+        <hr/>
+
+        <script th:inline="javascript">
+            const name = [[${name}]]
+            console.log('name',name)
+            const dto = [[${dto}]]
+            console.log('dto',dto)
+            const list = [[${list}]]
+            console.log('list',list)
+        </script>
+    </main>
+    <!--  푸터영역 가져오기  -->
+    <div th:insert="~{th/fragments/footer::footerFragment-1}" th:replace="~{th/fragments/footer::footerFragment-2}"></div>
+    <div th:replace="~{th/fragments/footer::footerFragment-2}"></div>
+</body>
+</html>

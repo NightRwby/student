@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4a05d40-1d35-4d42-9b94-878e0334b8f9" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/10_THYMELEAF/src/main/java/com/example/demo/Controller/ThymeleafController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/10_THYMELEAF/src/main/java/com/example/demo/Dto/MemoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/10_THYMELEAF/src/main/resources/templates/th/fragments/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/10_THYMELEAF/src/main/resources/templates/th/fragments/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/10_THYMELEAF/src/main/resources/templates/th/test1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/11_RESTCONTROLLER/src/main/java/com/example/demo/Controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/11_RESTCONTROLLER/src/main/java/com/example/demo/Dto/MemoDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/11_RESTCONTROLLER/src/main/java/com/example/demo/RestController/RestTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/11_RESTCONTROLLER/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python/aaa/mymath.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python/requestTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Python/test2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../12_SPRINGBOOT/09_TX/src/main/java/com/example/demo/Domain/Common/Service/MemoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../12_SPRINGBOOT/09_TX/src/main/java/com/example/demo/Domain/Common/Service/MemoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "NightRwby"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/NightRwby/student.git",
+    "accountId": "46042ada-75a4-44a9-aa51-c5ad6832380e"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="32oTDvd2PRtqd4r2qzUp7br4Ev1" />
+  <component name="ProjectViewState">
+    <option name="flattenModules" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="a4a05d40-1d35-4d42-9b94-878e0334b8f9" name="변경" comment="" />
+      <created>1758085810177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758085810177</updated>
+    </task>
+    <servers />
+  </component>
+</project>
